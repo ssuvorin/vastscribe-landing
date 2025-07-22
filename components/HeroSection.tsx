@@ -73,7 +73,12 @@ const HeroSection = () => {
           <motion.div variants={itemVariants} className="relative">
             <h1 className={`text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight font-heading ${locale === 'ru' ? 'leading-[1.3] -tracking-[0.2px]' : ''}`}>
               <span className="block bg-gradient-to-r from-brand-400 via-accent to-brand-600 bg-clip-text text-transparent">
-                {t('title')}
+                {t('title').split('\n').map((line, i, arr) => (
+                  <React.Fragment key={i}>
+                    {line}
+                    {i < arr.length - 1 && <br />}
+                  </React.Fragment>
+                ))}
               </span>
             </h1>
             

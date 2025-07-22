@@ -1,0 +1,152 @@
+{
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing", 
+    "upload": "Upload",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "title": "Transform Video & Audio to Text with AI",
+    "subtitle": "Professional video and audio transcription with AI-powered content generation. Convert media files into accurate text, summaries, and structured content in seconds.",
+    "cta": "Get Started Free",
+    "watchDemo": "Watch Demo"
+  },
+  "features": {
+    "title": "Powerful Features",
+    "subtitle": "Everything you need to transform video and audio into valuable content",
+    "transcription": {
+      "title": "AI Transcription",
+      "description": "Ultra-accurate speech-to-text conversion from video and audio with 99%+ accuracy across multiple languages and accents."
+    },
+    "aiContent": {
+      "title": "AI Content Generation", 
+      "description": "Automatically create summaries, articles, and structured content from your video and audio transcriptions."
+    },
+    "multiFormat": {
+      "title": "Multi-Format Export",
+      "description": "Export to TXT, DOCX, PDF, SRT, and more formats. Perfect for any video and audio workflow."
+    },
+    "realTime": {
+      "title": "Real-Time Processing",
+      "description": "Lightning-fast processing with real-time transcription for live video streams, meetings, and podcasts."
+    },
+    "collaboration": {
+      "title": "Team Collaboration",
+      "description": "Share, edit, and collaborate on video and audio transcriptions with your team in real-time."
+    },
+    "security": {
+      "title": "Enterprise Security",
+      "description": "Bank-level encryption and SOC 2 compliance to protect your media files and data."
+    }
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Choose the perfect plan for your needs. Upgrade or downgrade at any time.",
+    "monthly": "Monthly",
+    "annual": "Annual", 
+    "save": "✨ Save 20%",
+    "perFile": "per file",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "description": "Perfect for individuals getting started",
+        "features": [
+          "5 hours of transcription/month",
+          "Basic AI content generation", 
+          "Standard accuracy (95%+)",
+          "Email support",
+          "Export to TXT, DOCX"
+        ],
+        "cta": "Start Free Trial"
+      },
+      "creator": {
+        "name": "Creator",
+        "description": "Best for content creators and professionals",
+        "features": [
+          "20 hours of transcription/month",
+          "Advanced AI content generation",
+          "Premium accuracy (99%+)", 
+          "Priority support",
+          "Export to all formats",
+          "Speaker identification",
+          "Custom vocabulary",
+          "API access"
+        ],
+        "cta": "Get Started"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "For teams and large organizations",
+        "features": [
+          "Unlimited transcription",
+          "Custom AI model training",
+          "Maximum accuracy (99.9%+)",
+          "24/7 dedicated support",
+          "Advanced integrations", 
+          "Team collaboration tools",
+          "Custom branding",
+          "SOC 2 compliance",
+          "SLA guarantee"
+        ],
+        "cta": "Contact Sales"
+      }
+    },
+    "faq": {
+      "title": "Questions?",
+      "subtitle": "We're here to help. Check out our FAQ or contact our support team.",
+      "viewFaq": "View FAQ",
+      "contactSupport": "Contact Support"
+    }
+  },
+  "cta": {
+    "title": "Ready to transform your video & audio?",
+    "subtitle": "Join thousands of professionals who trust VASTscribe for their video and audio transcription needs.",
+    "joinWaitlist": "Join Waitlist",
+    "email": "Enter your email",
+    "subscribe": "Subscribe",
+    "success": "Thanks for signing up! We'll notify you when we launch."
+  },
+  "upload": {
+    "title": "Upload Your Video & Audio",
+    "subtitle": "Drag and drop video or audio files or click to select. We support all major formats.",
+    "dragDrop": "Drag video or audio files here",
+    "orClick": "or click to select",
+    "supportedFormats": "Supported formats: MP4, AVI, MOV, MP3, WAV, M4A, FLAC, OGG",
+    "maxSize": "Maximum file size: 2GB",
+    "processing": "Processing your file...",
+    "comingSoon": "Upload feature coming soon! Join our waitlist to be notified."
+  },
+  "dashboard": {
+    "title": "Dashboard", 
+    "subtitle": "Track your transcription analytics and usage",
+    "stats": {
+      "totalFiles": "Total Files",
+      "hoursTranscribed": "Hours Transcribed", 
+      "accuracy": "Average Accuracy",
+      "timesSaved": "Time Saved"
+    },
+    "comingSoon": "Dashboard coming soon! We're working hard to bring you detailed analytics."
+  },
+  "footer": {
+    "tagline": "Transform video and audio into valuable content with AI precision",
+    "product": "Product",
+    "company": "Company",
+    "support": "Support", 
+    "legal": "Legal",
+    "contact": "Contact",
+    "email": "hello@vastscribe.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "San Francisco, CA",
+    "features": "Features",
+    "pricing": "Pricing",
+    "upload": "Upload"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "success": "Success!",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "close": "Close"
+  }
+} 

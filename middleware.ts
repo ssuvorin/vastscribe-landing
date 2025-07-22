@@ -1,30 +1,26 @@
 import createMiddleware from 'next-intl/middleware';
 import {locales} from './i18n';
+import { NextResponse } from 'next/server';
+import type { NextRequest } from 'next/server';
 
-export default createMiddleware({
-  // A list of all locales that are supported
-  locales,
-
-  // Used when no locale matches
-  defaultLocale: 'en',
-
-  // Always show the locale in the URL
-  localePrefix: 'always'
-});
+// Явный редирект с / на /en
+export function middleware(request: NextRequest) {
+  const { pathname } = request.nextUrl;
+  if (pathname === '/') {
+    return NextResponse.redirect(new URL('/en', request.url));
+  }
+  // Используем next-intl middleware для остального
+  return createMiddleware({
+    locales,
+    defaultLocale: 'en',
+    localePrefix: 'always',
+  })(request);
+}
 
 export const config = {
-  // Match only internationalized pathnames
   matcher: [
-    // Enable a redirect to a matching locale at the root
     '/',
-
-    // Set a cookie to remember the previous locale for
-    // all requests that have a locale prefix
     '/(ru|en)/:path*',
-
-    // Enable redirects that add missing locales
-    // (e.g. `/pathnames` -> `/en/pathnames`)
-    // Exclude static files, API routes, and Next.js internals
     '/((?!api|_next|_vercel|favicon\\.ico|sitemap\\.xml|robots\\.txt|.*\\.[a-zA-Z0-9]+$).*)'
   ]
 }; 

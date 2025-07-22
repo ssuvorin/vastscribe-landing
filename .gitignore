@@ -1,22 +1,5 @@
-# Node.js
 node_modules/
-
-# Next.js build output
 .next/
-
-# Vercel build output
-.vercel/
-
-# Local env files
-.env*
-
-# OS files
+out/
 .DS_Store
-
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Other
-*.local 
+.env 
